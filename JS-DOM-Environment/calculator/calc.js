@@ -16,3 +16,8 @@ function multiplyNumbers(x,y){
 }
 var z = multiplyNumbers(4,30);
 
+console.log(multiplyNumbers(3,40))
+
+
+//works with putting the numbers in by how do I do something diferent? //
+
