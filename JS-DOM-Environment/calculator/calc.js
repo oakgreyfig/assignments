@@ -9,3 +9,10 @@ console.log(add(1, 1, 1))
 
 // shows that the third input doesn't have anything to the equatuion. output is 2 not 3// 
 
+
+
+function multiplyNumbers(x,y){
+    return x*y;
+}
+var z = multiplyNumbers(4,30);
+
