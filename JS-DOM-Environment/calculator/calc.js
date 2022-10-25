@@ -21,3 +21,23 @@ console.log(multiplyNumbers(3,40))
 
 //works with putting the numbers in by how do I do something diferent? //
 
+function divideTwoNumbers (number1,number2) {
+    return number1/number2
+}
+
+console.log(divideTwoNumbers(3,400))
+console.log(divideTwoNumbers(10,5))
+console.log(divideTwoNumbers(4,6482))
+console.log(divideTwoNumbers(400,3.9999))
+
+//works with console log and stacic outputs are correct// 
+
+
+//diff between two numbers
+
+
+function getDifference (a,b) {
+    return Math.abs(a-b)
+}
+
+console.log(getDifference(400,3))
