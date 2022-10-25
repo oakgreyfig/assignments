@@ -35,10 +35,23 @@ var person = {
     }
 }
 
-// tab (indenting)
+// tab (indenting) statements in statements should be indeenet 
+
+if (2 === 2) {
+    console.log("they are equal")
+    if (3 === 3)
+        console.log("they are equal")
+}
+
 
 // HTML tags
+    //don't make up own tags and lowecase
+    
 
 // comments
-
+ /* 
+    BIG COMMENT BLOCK 
+ */ 
 // unix casing
+    //lowercase 
+        //spaces_out_of_the_question
