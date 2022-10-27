@@ -11,36 +11,36 @@ just fix the existing ones.
 
 var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-function Who_Wins(is_there_kryptonite,enemy_name) //WRONG USE OF - UPDATED TO FIT naming convention// //spelling error function//
+function Who_Wins(isThereKryptonite,enemyName) //WRONG USE OF - UPDATED TO FIT naming convention// //spelling error function//
 {
-if (!is-there-kryptonite)
+if (!isThereKryptonite)
 {
     return "Superman beats " +enemyName+ ", of course";
 }
 
 else{
-    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.";
+    return "Depends on how quick Superman can get rid of the Kryptonite. "+ enemyName +" could possibly win this one.";
 }
     }
 
-for (var i=0;i<enemies.length;i++)
+for (var i=0;i<Enemies.length;i++)
 {
-    var is_there_kryptonite; //typo : instead of ; //
+    var isThereKryptonite; //typo : instead of ; //
     if (i%2=== 0)  {
-        is_there_kryptonite = true;
+        isThereKryptonite = true;
     } else {
         is_there_kryptonite = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));
+    console.log(Who_Wins(isThereKryptonite,Enemies[i]));
 }
 
 function HowAttractedIsLoisLaneToMe ()
 {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random()*10)+1);
 }
 
-consol.log( HowAttractedIsLoisLaneToMe ()) ;
+console.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
 var superman = false; // var has to relate to a True or false missing "=" added for push // 
