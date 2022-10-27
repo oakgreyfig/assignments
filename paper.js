@@ -11,7 +11,7 @@ just fix the existing ones.
 
 var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
-funtion Who_Wins(is-there-kryptonite,enemy_name)
+function Who_Wins(is_there_kryptonite,enemy_name) //WRONG USE OF - UPDATED TO FIT naming convention// //spelling error function//
 {
 if (!is-there-kryptonite)
 {
@@ -25,8 +25,8 @@ else{
 
 for (var i=0;i<enemies.length;i++)
 {
-    var is_there_kryptonite:
-    if (i%2=== 0) {
+    var is_there_kryptonite; //typo : instead of ; //
+    if (i%2=== 0)  {
         is_there_kryptonite = true;
     } else {
         is_there_kryptonite = false;
@@ -43,7 +43,7 @@ function HowAttractedIsLoisLaneToMe ()
 consol.log( HowAttractedIsLoisLaneToMe ()) ;
 
 var clarkKent =true;
-var superman false;
+var superman = false; // var has to relate to a True or false missing "=" added for push // 
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
