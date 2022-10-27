@@ -29,7 +29,7 @@ for (var i=0;i<Enemies.length;i++)
     if (i%2=== 0)  {
         isThereKryptonite = true;
     } else {
-        is_there_kryptonite = false;
+        isThereKryptonite = false;
     }
     console.log(Who_Wins(isThereKryptonite,Enemies[i]));
 }
